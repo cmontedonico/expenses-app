@@ -6,11 +6,13 @@ import spotlightjs from "@spotlightjs/astro";
 
 import tailwind from "@astrojs/tailwind";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
   server: {
     port: 3000,
   },
 
-  integrations: [sentry(), spotlightjs(), tailwind()],
+  integrations: [sentry(), spotlightjs(), tailwind(), react()],
 });
