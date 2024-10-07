@@ -1,7 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import Dashboad from '../components/Dashboard.astro';
+import Dashboard from '../components/Dashboard.astro';
 
 interface Props {
 	title: string;
@@ -21,6 +21,6 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body class="min-h-screen grid grid-rows-[auto,1fr,auto]">
-        <Dashboad />
+        <Dashboard />
 	</body>
 </html>
