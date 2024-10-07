@@ -2,6 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import '../styles/globals.css';
 import { Button } from '@/components/ui/button';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 ---
 
 <Layout title="Welcome to Astro.">
@@ -15,6 +23,23 @@ import { Button } from '@/components/ui/button';
                 <p></p>$npx shadcn@latest add button</p>
                 <br />
                 <Button>Boton</Button>
+            </div>
+            <div class="text-center">
+                <h3 class="text-2xl">Card</h3> 
+                <p>$npx shadcn@latest add card</p>
+                <br />
+                <Card>
+                    <CardHeader>
+                      <CardTitle>Card Title</CardTitle>
+                      <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                      <p>Card Footer</p>
+                    </CardFooter>
+                </Card>                  
             </div>
         </div>
 	</main>
