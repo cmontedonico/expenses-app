@@ -14,5 +14,10 @@ export default defineConfig({
     port: 3000,
   },
 
-  integrations: [sentry(), spotlightjs(), tailwind(), react()],
+  integrations: [
+    sentry(),
+    spotlightjs(),
+    tailwind({ applyBaseStyles: false }),
+    react(),
+  ],
 });
