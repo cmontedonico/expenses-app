@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/tailwind": "^5.1.1",
+    "@fontsource/oxygen": "^5.1.0",
     "@sentry/astro": "^8.33.1",
     "@spotlightjs/astro": "^2.1.11",
     "astro": "^4.15.11",
