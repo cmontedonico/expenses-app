@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import '../styles/globals.css';
+import { Button } from '@/components/ui/button';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -8,6 +9,14 @@ import '../styles/globals.css';
 		<h1 class="text-6xl text-teal-900 font-bold mb-3"> Expenses App </h1>
         <p class="text-2xl text-zinc-900 mb-14 max-sm:mb-14 ">Manage your expenses inside this app</p>
         <hr class="w-full border border-teal-900 mb-16 max-sm:mb-10" />
+        <div class="grid grid-cols-3 gap-3">
+            <div class="text-center">
+                <h3 class="text-2xl">Button</h3> 
+                <p></p>$npx shadcn@latest add button</p>
+                <br />
+                <Button>Boton</Button>
+            </div>
+        </div>
 	</main>
 </Layout>
 
